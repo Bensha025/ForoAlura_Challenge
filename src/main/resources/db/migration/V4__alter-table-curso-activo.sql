@@ -1,0 +1,3 @@
+ALTER TABLE curso ADD COLUMN activo BOOLEAN;
+UPDATE curso SET activo = TRUE;
+ALTER TABLE curso ALTER COLUMN activo SET NOT NULL;
